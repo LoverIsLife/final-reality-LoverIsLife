@@ -1,7 +1,6 @@
-package Person
+package src.main.scala.Person
 
-import Weapon.Weapon
-
+import src.main.scala.Weapon.Weapon
 /**
  * The `BlackMage` class represents a character of the Black Mage profession in the game.
  *

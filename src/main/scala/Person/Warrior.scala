@@ -1,6 +1,6 @@
-package Person
+package src.main.scala.Person
 
-import Weapon.Weapon
+import src.main.scala.Weapon.Weapon
 
 /**
  * The `Warrior` class represents a character of the Warrior profession in the game.

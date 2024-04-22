@@ -1,6 +1,6 @@
-package Person
+package src.main.scala.Person
 
-import Weapon.Weapon
+import src.main.scala.Weapon.Weapon
 
 /**
  * The `Person` trait represents an entity in the game (maybe in the future).
@@ -45,7 +45,6 @@ trait Person{
   var weight: Int
   var weapon: Option[Weapon]
   //var mp: Int
-  //var atk: Int
-  def  weapon_state(person: Person): Boolean
+  def  weaponState(person: Person): Boolean
   //def  skill(): Unit
 }

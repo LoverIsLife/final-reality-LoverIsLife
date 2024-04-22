@@ -1,11 +1,13 @@
-import Person.Person
+package src.main.scala
+
+import src.main.scala.Person.Person
 
 /**
- * The `Party` class represents a group of members in the game.
+ * The `src.main.scala.Party` class represents a group of members in the game.
  *
  * @param members A list containing the members of the party, initially empty.
  */
-class Party (var members: List[Any] = List()) {
+class Party (var members: List[Person] = List()) {
 
   /**
    * Adds a member to the party if there are fewer than three members already.
@@ -27,7 +29,7 @@ class Party (var members: List[Any] = List()) {
    *
    * @return True if the party is still active, false if all members are defeated or if the party is empty.
    */
-  def defeat_check(): Boolean={
+  def defeatCheck(): Boolean={
     if (members.nonEmpty && members.forall(_.hp <= 0))  {
       println("You defeat")
       return false

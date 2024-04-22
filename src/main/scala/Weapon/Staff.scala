@@ -1,6 +1,6 @@
-package Weapon
+package src.main.scala.Weapon
 
-import Person.Person
+import src.main.scala.Person.Person
 
 /**
  * The `Staff` class represents a type of weapon called Staff in the game.

@@ -1,6 +1,6 @@
-package Person
+package src.main.scala.Person
 
-import Weapon.Weapon
+import src.main.scala.Weapon.Weapon
 
 /**
  * The `WhiteMage` class represents a character of the White Mage profession in the game.

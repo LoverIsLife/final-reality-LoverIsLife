@@ -1,6 +1,6 @@
-package Person
+package src.main.scala.Person
 
-import Weapon.Weapon
+import src.main.scala.Weapon.Weapon
 /**
  * Abstract class `Jobs` represents the professions in the game, extending the `Person` class.
  *
@@ -19,7 +19,7 @@ abstract class Jobs (var name: String,var hp: Int,var armor: Int,
    * @param person The target person to attack.
    * @return True if the profession holds a weapon, false otherwise.
    */
-  def weapon_state(person: Person): Boolean = {
+  def weaponState(person: Person): Boolean = {
     if (person.weapon.isDefined) {
       true
     } else {
@@ -28,15 +28,14 @@ abstract class Jobs (var name: String,var hp: Int,var armor: Int,
     }
   }
 
-}
-  def weapon_state(person: Person): Boolean= {
-    if (person.weapon.isDefined) {
-      return true
-    }
-    else {
-      println("Couldn't attack because doesn't have weapon yet")
-      return false
-    }
-  }
+  //def weapon_state(person: Person): Boolean= {
+  //  if (person.weapon.isDefined) {
+  //    return true
+  //  }
+  //  else {
+  //    println("Couldn't attack because doesn't have weapon yet")
+  //    return false
+  //  }
+  //}
 
 }

@@ -1,6 +1,6 @@
-package Weapon
+package src.main.scala.Weapon
 
-import Person.{BlackMage, Ninja, Person, WhiteMage}
+import src.main.scala.Person.{Ninja, Person, WhiteMage, BlackMage}
 
 /**
  * The `MagicWeapon` abstract class represents a type of weapon that incorporates magical attributes in the game.

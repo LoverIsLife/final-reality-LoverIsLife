@@ -1,5 +1,5 @@
-package Weapon
-import Person.{BlackMage, Ninja, Paladin, Person, Warrior, WhiteMage}
+package src.main.scala.Weapon
+import src.main.scala.Person.{Ninja, Paladin, Person, Warrior, WhiteMage, BlackMage}
 
 /**
  * The `CommonWeapon` abstract class represents a common type of weapon in the game.

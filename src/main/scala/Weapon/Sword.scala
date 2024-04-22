@@ -1,6 +1,6 @@
-package Weapon
+package src.main.scala.Weapon
 
-import Person.Person
+import src.main.scala.Person.Person
 
 /**
  * The `Sword` class represents a type of weapon called Sword in the game.
